@@ -71,6 +71,7 @@ export default function InvoiceModal({ onCreateInvoice }: InvoiceModalProps) {
             </label>
             <Input
               type="text"
+              placeholder="Enter client name"
               required
               className="bg-secondary/40 border-border rounded-full h-11"
               value={name}
@@ -83,6 +84,7 @@ export default function InvoiceModal({ onCreateInvoice }: InvoiceModalProps) {
             </label>
             <Input
               type="email"
+              placeholder="Enter email"
               required
               className="bg-secondary/40 border-border rounded-full h-11"
               value={email}
@@ -95,6 +97,7 @@ export default function InvoiceModal({ onCreateInvoice }: InvoiceModalProps) {
             </label>
             <Input
               type="number"
+              placeholder="Enter amount"
               required
               className="bg-secondary/40 border-border rounded-full h-11"
               value={amount}
