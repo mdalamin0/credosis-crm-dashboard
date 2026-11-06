@@ -1,10 +1,6 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import DashboardShell from "@/components/ui/DashboardShell";
 
-export default function Home() {
-  return (
-    <div>
-      <Button>Click me</Button>
-    </div>
-  );
+
+export default function Page() {
+  return <DashboardShell />;
 }
