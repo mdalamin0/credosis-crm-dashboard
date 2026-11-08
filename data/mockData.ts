@@ -32,4 +32,20 @@ export const initialInvoices: Invoice[] = [
     status: "Paid",
     date: "2026-11-03",
   },
+  {
+    id: "INV-9500",
+    clientName: "MD. AL AMIN",
+    clientEmail: "alamin@gmail.com",
+    amount:25000,
+    status: "Paid",
+    date: "2026-11-06",
+  },
+  {
+    id: "INV-9501",
+    clientName: "MD. Jakir Hossain",
+    clientEmail: "jakir@gmail.com",
+    amount:15000,
+    status: "Paid",
+    date: "2026-11-07",
+  },
 ];
