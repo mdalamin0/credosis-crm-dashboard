@@ -45,7 +45,7 @@ Follow these steps to set up and run the dashboard locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone <https://github.com/mdalamin0/credosis-crm-dashboard.git>
+git clone https://github.com/mdalamin0/credosis-crm-dashboard.git
 cd credosis-crm-dashboard
 ```
 
