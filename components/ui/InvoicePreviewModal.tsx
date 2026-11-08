@@ -127,6 +127,7 @@ export default function InvoicePreviewModal({
       console.error(error);
     } finally {
       setIsDownloading(false);
+      onClose();
     }
   };
 
